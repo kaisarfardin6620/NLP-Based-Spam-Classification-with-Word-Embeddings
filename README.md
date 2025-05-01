@@ -2,7 +2,7 @@
 
 This project focuses on detecting spam emails using natural language processing techniques combined with pretrained word embeddings such as Glov, FastText and Word2Vec. It applies both traditional machine learning models and lays the groundwork for deep learning approaches (e.g., LSTM/GRU).
 
-## 📌 Problem Statement
+##  Problem Statement
 
 The goal is to classify email messages into two categories:
 - **Spam**
@@ -10,25 +10,25 @@ The goal is to classify email messages into two categories:
 
 The classification is based on the textual content of the email, using vectorized representations from pretrained embedding models.
 
-## 🧠 Techniques Used
+##  Techniques Used
 
-### 🔹 Preprocessing
+###  Preprocessing
 - Lowercasing and punctuation removal
 - Tokenization and cleaning
 - Handling empty or null values
 
-### 🔹 Feature Extraction
+###  Feature Extraction
 - Pretrained word embeddings (Word2Vec, Glov, FastText via Gensim)
 - Sentence vectorization by averaging word embeddings
 
-### 🔹 Modeling
+###  Modeling
 - Traditional classifiers:
   - Logistic Regression
   - XGBoost
   - Support Vector Machine (SVM)
 - Preparation for neural models like LSTM/GRU
 
-## 📁 Dataset
+##  Dataset
 
 The dataset contains email texts labeled as spam or ham. It is assumed to have the following columns:
 
@@ -37,7 +37,7 @@ The dataset contains email texts labeled as spam or ham. It is assumed to have t
 
 > The dataset can be loaded from a CSV file and preprocessed for training and evaluation.
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 - **Accuracy**
 - **Precision**
@@ -45,7 +45,7 @@ The dataset contains email texts labeled as spam or ham. It is assumed to have t
 - **F1-Score**
 - **Confusion Matrix**
 
-## 📦 Libraries Used
+##  Libraries Used
 
 - `pandas`, `numpy`
 - `scikit-learn`
